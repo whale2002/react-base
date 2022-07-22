@@ -27,7 +27,9 @@ const Logs = (props) => {
         />
       ))}
 
-      {props.todoList.length === 0 && <p className="no-logs">当前没有计划！</p>}
+      {filteredTodoList.length === 0 && (
+        <p className="no-logs">当前时间没有计划！</p>
+      )}
     </Card>
   );
 };

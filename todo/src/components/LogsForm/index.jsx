@@ -46,6 +46,7 @@ const LogsForm = (props) => {
             value={inputDate}
           />
         </div>
+
         <div className="form-item">
           <label htmlFor="desc">内容</label>
           <input
@@ -55,6 +56,7 @@ const LogsForm = (props) => {
             value={inputDesc}
           />
         </div>
+
         <div className="form-item">
           <label htmlFor="time">时长</label>
           <input
@@ -64,6 +66,7 @@ const LogsForm = (props) => {
             value={inputTime}
           />
         </div>
+
         <div className="form-btn">
           <button>添加</button>
         </div>
